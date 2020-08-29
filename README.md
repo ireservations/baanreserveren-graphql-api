@@ -5,6 +5,8 @@
 - Authentication is simple HTTP Basic auth with your username & password.
 - See https://graphql.org/learn/serving-over-http/#post-request for the structure of every request.
 
+**Play around with the browser!** It's brilliant. When that works, including using _variables_, use the real API.
+
 ## Availability
 
 You can fetch availability in 2 ways:
@@ -50,4 +52,4 @@ query {
 
 ## Create reservations
 
-Use `createReservation`. See inline docs in the browser. **NOTE** You should use GraphQL's `arguments`, not inline data.
+Use `createReservation`. See inline docs in the browser. **NOTE** You should use GraphQL's _variables_, not inline data.
