@@ -3,6 +3,7 @@
 - The browser contains the Docs, because GraphQL is technically self-documenting.
 - The GraphQL endpoint is `/graphql/club`.
 - Authentication is simple HTTP Basic auth with your username & password.
+- Every API request **must** include the `User-agent` header.
 - See https://graphql.org/learn/serving-over-http/#post-request for the structure of every request.
 
 **Play around with the browser!** It's brilliant. When that works, including using _variables_, use the real API.
