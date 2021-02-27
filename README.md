@@ -5,6 +5,7 @@
 - Authentication is simple HTTP Basic auth with your username & password.
 - Every API request **must** include the `User-agent` header.
 - See https://graphql.org/learn/serving-over-http/#post-request for the structure of every request.
+- API limits: 500 requests per day (that's 1 per 3 minutes). You can fetch intelligently, and cache the results.
 
 **Play around with the browser!** It's brilliant. When that works, including using _variables_, use the real API.
 
