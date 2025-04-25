@@ -4,7 +4,7 @@
 - The GraphQL endpoint is `/graphql/club`.
 - Authentication is simple HTTP Basic auth with your username & password.
 - Every API request **must** include the `User-agent` header.
-- See https://graphql.org/learn/serving-over-http/#post-request for the structure of every request.
+- See https://graphql.org/learn/serving-over-http/#post-request-and-body for the structure of every request.
 - Warnings & deprecations are in `extensions.warnings`. Try `query { me { deprecated_test } }`
 - API limits: 500 requests per day (that's 1 per 3 minutes). You can fetch intelligently, and cache the results.
 
