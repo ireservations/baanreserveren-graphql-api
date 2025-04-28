@@ -7,6 +7,7 @@
 - See https://graphql.org/learn/serving-over-http/#post-request-and-body for the structure of every request.
 - Warnings & deprecations are in `extensions.warnings`. Try `query { me { deprecated_test } }`
 - API limits: 500 requests per day (that's 1 per 3 minutes). You can fetch intelligently, and cache the results.
+- Follow this repo for announcements/changes/deprecations. We will create a Release for every announcement, so 'Watch' the repo for that.
 
 **Play around with the browser!** It's brilliant. When that works, including using _variables_, use the real API.
 
