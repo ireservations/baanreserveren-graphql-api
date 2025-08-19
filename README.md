@@ -1,6 +1,6 @@
 - We will make an account for you. You'll receive a username & password.
-- You can use that account to log into the club, and use the GraphQL browser: `/graphql/browser/club`.
-- The browser contains the Docs, because GraphQL is technically self-documenting.
+- You can use that account to log into the club, and use the GraphQL Browser/Explorer: `/graphql/browser/club`.
+- The Browser/Explorer contains the Docs, because GraphQL is technically self-documenting.
 - The GraphQL endpoint is `/graphql/club`.
 - Authentication is simple HTTP Basic auth with your username & password.
 - Every API request **must** include the `User-agent` header.
@@ -9,7 +9,7 @@
 - API limits: 500 requests per day (that's 1 per 3 minutes). You can fetch intelligently, and cache the results.
 - Follow this repo for announcements/changes/deprecations. We will create a Release for every announcement, so 'Watch' the repo for that.
 
-**Play around with the browser!** It's brilliant. When that works, including using _variables_, use the real API.
+**Play around with the Browser/Explorer!** It's brilliant. When that works, including using _variables_, use the real API.
 
 ## Availability
 
@@ -56,4 +56,4 @@ query {
 
 ## Create reservations
 
-Use `createReservation`. See inline docs in the browser. **NOTE** You should use GraphQL's _variables_, not inline data.
+Use `createReservation`. See inline docs in the Browser/Explorer. **NOTE** You should use GraphQL's _variables_, not inline data.
