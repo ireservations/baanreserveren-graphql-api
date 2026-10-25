@@ -2,7 +2,9 @@
 - You can use that account to log into the club, and use the GraphQL Browser/Explorer: `/graphql/browser/club`.
 - The Browser/Explorer contains the Docs, because GraphQL is technically self-documenting.
 - The GraphQL endpoint is `/graphql/club`.
-- Authentication is simple HTTP Basic auth with your username & password.
+- Authentication:
+    - we set up a token, you generate it from My Account > API tokens, and use it in `Authentication: Bearer <token>`.
+    - Old: simple HTTP Basic auth with your username & password.
 - Every API request **must** include the `User-agent` header.
 - See https://graphql.org/learn/serving-over-http/#post-request-and-body for the structure of every request.
 - Warnings & deprecations are in `extensions.warnings`. Try `query { me { deprecated_test } }`
